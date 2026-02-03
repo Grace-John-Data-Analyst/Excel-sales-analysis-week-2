@@ -41,21 +41,21 @@ Filters
 
 COUNTBLANK
 
-- Pivot Table counts vs sums
+-Pivot Table counts vs sums
 
-- Identified and removed one fully blank row (entire record was empty)
+-Identified and removed one fully blank row (entire record was empty)
 
-- Verified numeric columns (Sales, Profit, Discount) for inconsistencies and extreme values
+-Verified numeric columns (Sales, Profit, Discount) for inconsistencies and extreme values
 
-- Corrected date issues where dates were stored as text
+-Corrected date issues where dates were stored as text
 
-- Created derived columns:
+-Created derived columns:
 
-* Order Year
+.Order Year
 
-* Order Month
+.Order Month
 
-- Standardized text fields using Excel text functions to ensure consistency for analysis
+-Standardized text fields using Excel text functions to ensure consistency for analysis
 
 I made all cleaning decisions cautiously and would be documented in a real business setting.
 
@@ -64,58 +64,58 @@ Analysis Performed
 
 Summary statistics:
 
-- Total, minimum, maximum, and average sales and profit
+-Total, minimum, maximum, and average sales and profit
 
 Pivot Table analysis:
 
-- Sales and profit by year
+-Sales and profit by year
 
-- Sales by month (seasonality)
+-Sales by month (seasonality)
 
-- Sales by category
+-Sales by category
 
-- Profit by region
+-Profit by region
 
-- Time-based trend analysis using Year and Month
+-Time-based trend analysis using Year and Month
 
-- Visual exploration using Excel charts
+-Visual exploration using Excel charts
 
 I also used Pivot Tables as data quality check, revealing issues I did't find through formulas alone.
 
 
 Key Insights
 
-- The trends showed that sales and profits consistently rose over the years, with the peak recorded in the most recent year.
+-The trends showed that sales and profits consistently rose over the years, with the peak recorded in the most recent year.
 
-- One category consistently generated the most sales and the most profit over the years
+-One category consistently generated the most sales and the most profit over the years
 
-- Losses were recorded on discounts greater than 0, which indicated that profits were only recorded when there was no discount.
+-Losses were recorded on discounts greater than 0, which indicated that profits were only recorded when there was no discount.
   
-- Sales consistently peaked in December, indicating seasonal patterns
+-Sales consistently peaked in December, indicating seasonal patterns
    
 
 Recommendations
 
-- Review discounting strategies, especially for low-margin products
+-Review discounting strategies, especially for low-margin products
 
-- Focus growth efforts on consistently best perfrming categories and regions
+-Focus growth efforts on consistently best perfrming categories and regions
 
-- Use seasonal trends to plan promotions more strategically rather than applying uniform discounts
-- 
+-Use seasonal trends to plan promotions more strategically rather than applying uniform discounts
+
 
 Tools Used
 
-- Microsoft Excel
+-Microsoft Excel
 
-- Formulas & functions
+-Formulas & functions
 
-- Pivot Tables
+-Pivot Tables
 
-- Charts & basic dashboarding
+-Charts & basic dashboarding
 
 
 Next Steps
 
-- Advanced Excel
+-Advanced Excel
 
 -Build more structured Excel dashboards
