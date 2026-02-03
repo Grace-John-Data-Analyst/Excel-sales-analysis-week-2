@@ -51,9 +51,9 @@ Before analysis, I reviewed and cleaned the dataset with the following steps:
 
 -Created derived columns:
 
-.Order Year
+- Order Year
 
-.Order Month
+- Order Month
 
 -Standardized text fields using Excel text functions to ensure consistency for analysis
 
