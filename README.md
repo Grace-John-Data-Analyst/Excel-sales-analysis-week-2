@@ -37,9 +37,9 @@ Before analysis, I reviewed and cleaned the dataset with the following steps:
 
 -Checked for missing values using:
 
-Filters
+- Filters
 
-COUNTBLANK
+- COUNTBLANK
 
 -Pivot Table counts vs sums
 
