@@ -5,7 +5,7 @@ The objective was to clean the data, validate its quality, perform descriptive a
 The emphasis of this work is on analyst thinking: understanding data structure, validating assumptions, and explaining results clearly.
 
 
-Dataset Descriptio
+Dataset Description
 
 -25036 rows
 
