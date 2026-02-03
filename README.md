@@ -6,38 +6,40 @@ The emphasis of this work is on analyst thinking: understanding data structure, 
 
 Dataset Description
 
-- 25036 rows
-- 21 columns
-- Each row represents a single customer transaction
+-25036 rows
+-21 columns
+-Each row represents a single customer transaction
+
 
 Key fields include:
 
-- Order Date
+-Order Date
 
-- Sales
+-Sales
 
-- Profit
+-Profit
 
-- Discount
+-Discount
 
-- Category
+-Category
 
-- Region
-- 
+-Region
+
 Dataset source: Kaggle (public sales dataset)
+
 
 
 Data Cleaning & Validation
 
 Before analysis, I reviewed and cleaned the dataset with the following steps:
 
-- Preserved the original raw dataset and worked on a cleaned copy
+-Preserved the original raw dataset and worked on a cleaned copy
 
-- Checked for missing values using:
+-Checked for missing values using:
 
-* Filters
+Filters
 
-* COUNTBLANK
+COUNTBLANK
 
 - Pivot Table counts vs sums
 
